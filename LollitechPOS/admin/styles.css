@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent{
+    display: inline-flex;
+    width:100%;
+    padding: 0px;
+    margin: 0px;
+}
+.sidebar {
+    max-width: 40%;
+    border: 1px black solid;
+    height: 94vh;
+    border: white;
+    border-right: 0px;
+    padding: 15px;
+    margin: auto;
+}
+
+/*
+h2{
+    background-color: rgb(30, 30, 70);
+    border-radius: 15px;
+    text-align: center;
+    width: 100px;
+    color: white;
+    font-size: 20px;
+    height: 30px;
+}*/
+
+button{
+    color: white;
+    background-color: rgb(35, 35, 59);
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0px;
+    font-weight: 800;
+}
+
+select{
+    border: 0px;
+}
+
+.btm-name{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.display-area{
+    display: inline-block;
+    min-width: 80%;
+    margin-left: 100px;
+    padding: 20px;
+    padding-top: 1px;
+    background-color: rgba(219, 218, 216, 0.815);
+    border: 0px;
+}
+
+h1{
+    margin-top: 5px;
+}
+.description {
+    font-size: small;
+    color: rgba(111, 116, 111, 0.849);
+
+}
